@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user>
+		<username>b01</username>
+		<password>b01</password>
+		<name>B01</name>
+		<type>customer</type>
+	</user>
+	<user>
+		<username>admin</username>
+		<password>admin</password>
+		<name>Admin</name>
+		<type>admin</type>
+	</user>
+	<user>
+		<username>b02</username>
+		<password>b02</password>
+		<name>B02</name>
+		<type>customer</type>
+	</user>
+</users>
