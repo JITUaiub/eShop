@@ -18,7 +18,8 @@
 	</script>
 	<body>
 		<div id="logo" align="center">
-			<h1>LOGO<br/><hr size="3"/></h1>
+			<a href="../index.php"><h1>LOGO<br/></h1></a>
+			<hr size="3"/>
 		</div>
 		<div id="loginform">
 			<form action="../logic/authenticate/login.php" method="post" onsubmit="return validate()" name="loginform">
