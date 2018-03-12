@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	include '../users/getUsers.php';
 	$username = "";
 	$password = "";
@@ -15,9 +16,11 @@
 		if($usersData->user[$i]->username == $username){
 			if($usersData->user[$i]->password == $password){
 				if($usersData->user[$i]->type == "admin"){
+					$_SESSION['loggedUsername'] = $username;
 					$loginStatus = true;
 					header("location: ../../views/admin/index.php");
 				}else{
+					$_SESSION['loggedUsername'] = $username;
 					$loginStatus = true;
 					header("location: ../../views/user/index.php");
 				}

@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <invoices>
-	<invoice username="b01">
+	<invoice>
+		<username>b01</username>
 		<products>
-			<product id="1">
+			<product>
+				<id>1</id>
 				<name>Laptop</name>
 				<price>750.00</price>
+				<quantity>1</quantity>
 			</product>
-			<product id="2">
+			<product>
+				<id>2</id>
 				<name>Phone</name>
 				<price>150.50</price>
+				<quantity>1</quantity>
 			</product>
-			<product id="4">
+			<product>
+				<id>4</id>
 				<name>Mouse</name>
 				<price>8.60</price>
+				<quantity>1</quantity>
 			</product>
 		</products>
-		<pricing>
-			<total_price>909.10</total_price>
-		</pricing>
 	</invoice>
-	<invoice username="b02">
+	<invoice>
+		<username>b02</username>
 		<products>
-			<product id="3">
+			<product>
+				<id>3</id>
 				<name>Keyboard</name>
 				<price>10.00</price>
+				<quantity>1</quantity>
 			</product>
-			<product id="5">
+			<product>
+				<id>5</id>
 				<name>Headphone</name>
 				<price>3.99</price>
+				<quantity>1</quantity>
 			</product>
 		</products>
-		<pricing>
-			<total_price>909.10</total_price>
-		</pricing>
 	</invoice>
 </invoices>
